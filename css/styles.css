@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+    background: url(../img/Background.png) no-repeat center top / cover;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, p {
+    margin: 0;
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 106px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 440px;
+    height: 400px;
+
+  }
+
+  .swiper-slide--invention {
+      background: url(../img/invention.png) center top / cover;
+  }
+
+  .swiper-slide--invention:hover {
+    background: url(../img/invention.png) center top / cover green;
+  }
+
+  .swiper-slide--magazine {
+    padding: 30px;
+    background: url(../img/magazine.png) center top / cover;
+  }
+
+  .swiper-slide--bisycle {
+    background: url(../img/bicycle.png) center top / cover;
+  }
+
+  .swiper-slide--bus {
+    background: url(../img/bus.svg) center top / cover;
+  }
+
+  .text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #303030;
+    text-transform: uppercase;
+    line-height: 19px;
+    text-align: center;
+    padding-top: 64px;
+    max-width: 800px;
+    margin: 0 auto;
+
+    background: url(../img/Rectangle.svg) no-repeat right;
+  }
+ 
+  .heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 90px;
+    text-align: center;
+    padding-top: 35px;
+    max-width: 1160px;
+    margin: 0 auto;
+
+    background: url(../img/triangle.svg) no-repeat center left;
+
+  }
+
+  .magazine__apex {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 24px;
+    padding-top: 262px;
+  }
+
+  .magazine__by {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 24px;
+    padding-top: 17px;
+
+  }
+
+ 
